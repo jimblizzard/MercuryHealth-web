@@ -2,8 +2,11 @@ name: mercuryhealth-web-ci-pr
 
 on:
   pull_request:
-    branches: [ master ]
+    branches: [ none ]
 
+  # allow this to be run from the Actions view
+  workflow_dispatch:
+    
 jobs:
   build:
 
