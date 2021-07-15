@@ -2,7 +2,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-// simple change 
+// simple change here 
 namespace AspNetCoreVueStarter
 {
     public class Program
