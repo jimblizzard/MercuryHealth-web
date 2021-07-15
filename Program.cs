@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
 // simple change here 
+// improved grid performance here
 namespace AspNetCoreVueStarter
 {
     public class Program
