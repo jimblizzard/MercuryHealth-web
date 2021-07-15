@@ -28,7 +28,7 @@ namespace AspNetCoreVueStarter
             // In production, the Vue files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
-                configuration.RootPath = "ClientApp/dist";
+                configuration.RootPath = "ClientApp/dist"; // improved grid perf
             });
         }
 
